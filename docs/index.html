@@ -1,3 +1,97 @@
 <html>
-<h1> Hello world </h1>
+  <head>
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+    <script src="https://rawgit.com/feiss/aframe-environment-component/master/dist/aframe-environment-component.min.js"></script>
+    <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v4.1.2/dist/aframe-extras.min.js"></script>
+  </head>
+  <body>
+
+<a-scene environment="preset: forest">
+  <a-assets>
+    <!-- <img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg">
+    <img id="skyTexture" src="https://cdn.aframe.io/a-painter/images/sky.jpg"> -->
+
+<img id="cromwell" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Cromwell%2CThomas%281EEssex%2901.jpg/642px-Cromwell%2CThomas%281EEssex%2901.jpg">
+<img id="ambassadors" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg/609px-Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg">	
+<img id="charles" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/D%C3%BCrer_karl_der_grosse.jpg/257px-D%C3%BCrer_karl_der_grosse.jpg">
+
+<img id="gibraltar" src="docs/CO956-538.jpg">
+
+<a-asset item id="chest" src="chest/scene.gltf"></a-asset>
+<a-asset item id="bed" src="/bed/scene.gltf"></a-asset>
+
+</a-assets>
+
+<a-entity id="rig" movement-controls="constrainToNavMesh: true">
+  <a-entity camera
+            position="-10 1.6 10"
+            look-controls="pointerLockEnabled: true">
+  </a-entity>
+</a-entity>
+
+<!--
+<a-entity id="rig" movement-controls kinematic-body>
+  <a-entity camera
+            position="0 1.6 0"
+            look-controls="pointerLockEnabled: true"></a-entity>
+</a-entity>
+-->
+
+ <!-- <a-cylinder id="ground" src="#groundTexture" radius="30" height="0.1"></a-cylinder>
+  <a-sky id="background" src="#skyTexture" theta-length="90" radius="30"></a-sky> -->
+
+	<a-text value="New Chamber" line-height="5" position="-8.25 2 2.5" rotation="0 -90 0"></a-text>		
+      
+	<a-image position="-2.25 0.5 5" rotation="0 90 0" src="#cromwell" height="5" width="3"></a-image>
+	<a-box position="-2 0.5 5" color="grey" depth="6" height="5" width="0.25"></a-box>
+	<a-box position="-5 0.5 8" rotation="0 90 0" color="grey" depth="6" height="5" width="0.25"></a-box>
+	<a-box position="-5 0.5 2" rotation="0 90 0" color="grey" depth="6" height="5" width="0.25"></a-box>
+	<a-box position="-8 0.5 3" rotation="0 0 0" color="grey" depth="2" height="5" width="0.25"></a-box>
+	<a-box position="-8 0.5 7" rotation="0 0 0" color="grey" depth="2" height="5" width="0.25"></a-box>
+
+	
+	
+	<a-text value="Servants' Chamber" line-height="5" position="-8.25 2 11" rotation="0 -90 0"></a-text>
+
+	<a-image position="-2.25 0.5 14" rotation="0 90 0" src="#ambassadors" height="5" width="4"></a-image>
+	<a-box position="-2 0.5 14" color="grey" depth="6" height="5" width="0.25"></a-box>
+	<a-box position="-5 0.5 17" rotation="0 90 0" color="grey" depth="6" height="5" width="0.25"></a-box>
+	<a-box position="-5 0.5 11" rotation="0 90 0" color="grey" depth="6" height="5" width="0.25"></a-box>
+
+	<a-box position="-8 0.5 12" rotation="0 0 0" color="grey" depth="2" height="5" width="0.25" roughness="0.9"></a-box>
+	<a-box position="-8 0.5 16" rotation="0 0 0" color="grey" depth="2" height="5" width="0.25"></a-box>
+
+
+	<a-text value="Parlor" line-height="5" position="-8.25 2 20.5" rotation="0 -90 0"></a-text>
+
+	<a-image position="-2.25 0.5 23" rotation="0 90 0" src="#charles" height="5" width="2"></a-image>
+	<a-box position="-2 0.5 23" color="grey" depth="6" height="5" width="0.25"></a-box>
+	<a-box position="-5 0.5 26" rotation="0 90 0" color="grey" depth="6" height="5" width="0.25"></a-box>
+	<a-box position="-5 0.5 20" rotation="0 90 0" color="grey" depth="6" height="5" width="0.25"></a-box>
+
+	<a-box position="-8 0.5 21" rotation="0 0 0" color="grey" depth="2" height="5" width="0.25" roughness="0.9"></a-box>
+	<a-box position="-8 0.5 25" rotation="0 0 0" color="grey" depth="2" height="5" width="0.25"></a-box>
+	
+
+	<a-box position="-1 0.5 -3" rotation="0 45 0" color="#F0F0F0"></a-box>
+	<a-image position="5 5 5" src="#gibraltar"></a-image>
+
+	<a-gltf-model src="#bed" position="-10 0.5 -1"></a-gltf-model>
+	<a-gltf-model src="#chest" position="0 0.5 0"></a-gltf-model>
+	
+	<a-gltf-model src="url(/sword/scene.gtlf)" position="0 10 0"></a-gltf-model>
+	<a-gltf-model src="url(http://dev.nationalarchives.gov.uk/_dev/aframe/sword/scene.gtlf)" position="0 11 0"></a-gltf-model>
+	<a-gltf-model src="url(sword/scene.gtlf)" position="0 12 0"></a-gltf-model>
+
+
+	<a-gltf-model-legacy src="#bed" position="-10 0.5 -1"></a-gltf-model-legacy>
+	<a-gltf-model-legacy src="#chest" position="0 0.5 0"></a-gltf-model-legacy>
+
+
+	
+
+</a-scene>
+
+
+  </body>
 </html>
