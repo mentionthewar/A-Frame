@@ -1,0 +1,460 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1741,
+      "max": [
+        9.2065200805664062,
+        25.600551605224609,
+        4.2755513191223145
+      ],
+      "min": [
+        -106.92543792724609,
+        -39.418979644775391,
+        -203.4908447265625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 20892,
+      "componentType": 5126,
+      "count": 1741,
+      "max": [
+        1,
+        1,
+        0.99999916553497314
+      ],
+      "min": [
+        -1,
+        -1,
+        -0.99999916553497314
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1741,
+      "max": [
+        1,
+        1,
+        0.99999910593032837,
+        1
+      ],
+      "min": [
+        -1,
+        -0.99999910593032837,
+        -0.99999910593032837,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1741,
+      "max": [
+        0.99230557680130005,
+        0.99587243795394897
+      ],
+      "min": [
+        0.004321463406085968,
+        0.0096919313073158264
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 4956,
+      "max": [
+        1740
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 41784,
+      "componentType": 5126,
+      "count": 1249,
+      "max": [
+        4.953488826751709,
+        -4.1373748779296875,
+        0.86387735605239868
+      ],
+      "min": [
+        -103.54689788818359,
+        -8.0023221969604492,
+        -200.11187744140625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 56772,
+      "componentType": 5126,
+      "count": 1249,
+      "max": [
+        1,
+        0.98503929376602173,
+        0.99999916553497314
+      ],
+      "min": [
+        -1,
+        -0.9875185489654541,
+        -0.99999916553497314
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 27856,
+      "componentType": 5126,
+      "count": 1249,
+      "max": [
+        0.99997568130493164,
+        0.94263768196105957,
+        0.99998199939727783,
+        1
+      ],
+      "min": [
+        -0.99997574090957642,
+        -0.89262443780899048,
+        -0.99996757507324219,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 13928,
+      "componentType": 5126,
+      "count": 1249,
+      "max": [
+        1.3136692047119141,
+        0.99730736017227173
+      ],
+      "min": [
+        -0.00053825043141841888,
+        -0.0019573736935853958
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 19824,
+      "componentType": 5125,
+      "count": 5898,
+      "max": [
+        1248
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "FlukierJupiter (https://sketchfab.com/FlukierJupiter)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/d87c066434b44927b6e864ee354d4f46",
+      "title": "Wooden Bed"
+    },
+    "generator": "Sketchfab-3.19.6",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 43416,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 23920,
+      "byteOffset": 43416,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 71760,
+      "byteOffset": 67336,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 47840,
+      "byteOffset": 139096,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 186936,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/material_baseColor.png"
+    },
+    {
+      "uri": "textures/material_normal.png"
+    },
+    {
+      "uri": "textures/material_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/rope_baseColor.png"
+    },
+    {
+      "uri": "textures/rope_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "material",
+      "normalTexture": {
+        "index": 1,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "strength": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "rope",
+      "normalTexture": {
+        "index": 4,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 3,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.89805640239999995
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Bed_LP_Bed_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Bed_LP_rope_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -0.99999040365219116,
+        -0.00437574228271842,
+        0,
+        0,
+        0.00437574228271842,
+        -0.99999040365219116,
+        0,
+        0,
+        0.12405683845281601,
+        -65.264816284179688,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "a2285111517f406d98463ac05cf5f0ec.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5,
+        6
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -0.0013539031775220423,
+        0.99999908347267297,
+        0,
+        0,
+        -0.99999908347267297,
+        -0.0013539031775220423,
+        0,
+        48.8614501953125,
+        -99.607742309570312,
+        39.406867980957031,
+        1
+      ],
+      "name": "Bed_LP"
+    },
+    {
+      "mesh": 0,
+      "name": "Bed_LP_Bed_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Bed_LP_rope_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    }
+  ]
+}
+
