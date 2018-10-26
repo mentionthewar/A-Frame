@@ -11,7 +11,7 @@
 <a-scene environment="preset: default">
 ```
 
-The package contains many other options. Replace default with one of:
+The package contains many other options. In Notepad or similar replace the word default with one of:
 
 <table>
 <tr>
@@ -39,6 +39,9 @@ The package contains many other options. Replace default with one of:
   <td> yavapai </td>
 </table>
 
+Save vr-test2.htm and refresh (F5) the page in the browser.
+
+4. Maybe try a few of these until you find one you like.
 
 <h2> Useful A-frame tutorials and resources </h2>
 <ul>
