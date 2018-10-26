@@ -93,5 +93,7 @@ This can be done through a properly configured localhost. Take a look, for insta
 <h2> Useful A-frame tutorials and resources </h2>
 <ul>
 <li> Some stuff to watch out for - https://codeburst.io/a-frame-vr-pitfalls-tips-and-tricks-4829aa3cbc22
+<li> Geat walkthrough on a local system to produce a Pacman-like game - https://gamedevacademy.org/beginners-guide-to-a-frame-vr/
+<li> Another good, simple tutorial mentioning quirks of the framework https://hacks.mozilla.org/2017/09/i-built-something-with-a-frame-in-2-days-and-you-can-too/
 <li> Fun tutorial on A-frame physics - https://hacks.mozilla.org/2017/05/having-fun-with-physics-and-a-frame/
 </ul>
