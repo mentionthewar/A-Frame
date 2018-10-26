@@ -1,4 +1,4 @@
-# Recovering lost Tudor Treasures with A-frame @ MozFest 2018 </h1>
+# Recovering lost Tudor Treasures with A-frame @ MozFest </h1>
 
 <h3> Environment </h3>
 
