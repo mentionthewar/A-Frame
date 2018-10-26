@@ -4,7 +4,7 @@
 
 1. Download vr-test1.htm and open it in your browser in another tab. Take a look at the 20 lines of code used to produce the rather dark and menacing landscape you will see. <a href="https://cdn.aframe.io/a-painter/images/sky.jpg">Here is one of the two images making up the scene</a>. What do you notice about it?
 
-2. Download vr-test2.htm and open it in your browser. This is a little sunnier. Instead of using images we are now using an <a href="https://github.com/feiss/aframe-environment-component">extra piece of Javascript</a> (written by <a href="https://github.com/feiss">Diego Goberna</a>) to provide a lot of environmental details quickly.
+2. Download vr-test2.htm and open it in your browser. This is a little sunnier. Instead of using images we are now using an <a href="https://github.com/feiss/aframe-environment-component">extra piece of Javascript</a> (written by <a href="https://github.com/feiss">Diego Goberna</a>) to provide a lot of environmental details quickly. In A-frame these are called <strong>components</strong>.
 
 3. Look at this code. You will see a line which reads:
 ```
@@ -48,7 +48,7 @@ The package contains many other options. In Notepad or similar replace the word 
 <a-box position="-1 0.5 -3" rotation="0 45 0" color="#FFFFFF"></a-box>
 ```
 
-2. Now we have a box which we can position and rotate in 3 dimensions: left to right, up and down and further/nearer in the scene.
+2. Now we have a box which we can position and rotate in 3 dimensions. The three values of the position attribute control left to right, up and down and further/nearer in the scene respectively. (i.e. if we want objects on the ground, the middle number should be 0)
 
 <h2> Useful A-frame tutorials and resources </h2>
 <ul>
