@@ -85,7 +85,9 @@ The basic shapes are listed <a href="https://aframe.io/docs/0.8.0/introduction/h
 <a-image position="-5 0.5 -5.8" rotation="0 0 0" src="#dali" height="5" width="6"></a-image>
 ```
 
-<h3> Physics </h3>
+<h3> Physics and importing 3D objects</h3>
+
+This can be done through a properly configured localhost. Take a look, for instance, at https://github.com/donmccurdy/aframe-physics-system
 
 
 <h2> Useful A-frame tutorials and resources </h2>
