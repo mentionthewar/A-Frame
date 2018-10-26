@@ -82,7 +82,7 @@ The basic shapes are listed <a href="https://aframe.io/docs/0.8.0/introduction/h
 ```
 <a-image position="-5 0.5 -5.8" rotation="0 0 0" src="#dali" height="5" width="6"></a-image>
 ```
-
+more stuff here
 
 
 <h2> Useful A-frame tutorials and resources </h2>
