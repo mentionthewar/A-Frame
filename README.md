@@ -1,10 +1,10 @@
-# A-Frame
-Recovering lost Tudor Treasures @ MozFest
+# Recovering lost Tudor Treasures with A-frame @ MozFest 2018
 
-Information about the session goes here
+<h2> Getting started with A-frame </h2>
 
-Live links can be provided via https://mentionthewar.github.io/A-Frame/
-(which is living in the docs subdirectory)
+<h3> Environment </h3>
+
+1. Download vr-test1.htm and open it in your browser. 
 
 https://github.com/feiss/aframe-environment-component
 
