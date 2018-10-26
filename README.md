@@ -48,11 +48,41 @@ The package contains many other options. In Notepad or similar replace the word 
 <a-box position="-1 0.5 -3" rotation="0 45 0" color="#FFFFFF"></a-box>
 ```
 
-2. Now we have a box which we can position and rotate in 3 dimensions. The three values of the position attribute control left to right, up and down and further/nearer in the scene respectively. (i.e. if we want objects on the ground, the middle number should be 0). Move things around a bit and when you're ready add other objects, e.g.:
+2. Now we have a box which we can position and rotate in 3 dimensions. The three values of the position attribute control left to right, up and down and further/nearer in the scene respectively. (i.e. if we want objects on the ground, the middle number should be 0). 
+
+Move things around a bit and when you're ready add other objects, e.g.:
 ```
 <a-cylinder position="1 0 -3" radius="0.75" height="6" color="#FFC65D"></a-cylinder>
 ```
 The basic shapes are listed <a href="https://aframe.io/docs/0.8.0/introduction/html-and-primitives.html">on this page</a>.
+
+3. The camera can be repositioned in a similar way. Below the asset tags add:
+```
+<a-entity position="-12 0 -2">
+  <a-camera></a-camera>
+</a-entity>
+```
+4. This puts us in a position to view a very basic building we can add:
+```
+<a-box position="-2 0.5 -9" color="grey" depth="6" height="5" width="0.25"></a-box>
+<a-box position="-5 0.5 -6" rotation="0 90 0" color="grey" depth="6" height="5" width="0.25"></a-box>
+<a-box position="-5 0.5 -12" rotation="0 90 0" color="grey" depth="6" height="5" width="0.25"></a-box>
+<a-box position="-8 0.5 -11" rotation="0 0 0" color="grey" depth="2" height="5" width="0.25"></a-box>
+<a-box position="-8 0.5 -7" rotation="0 0 0" color="grey" depth="2" height="5" width="0.25"></a-box>
+<a-box position="-5 3 -9" rotation="0 0 0" color="grey" depth="6" height="0.25" width="6"></a-box>
+```
+<h3> Calling other assets </h3>
+1. Running on a local machine this makes A-Frame rather grumpy. But we can slap a mural on our building. Into the assets section, we can add an image from Wikimedia Commons:
+```
+<a-assets>
+<img id="dali" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Street_Art_%284240649293%29.jpg">
+</a-assets>
+```
+2. We then call this asset with our boxes and other objects:
+```
+<a-image position="-5 0.5 -5.8" rotation="0 0 0" src="#dali" height="5" width="6"></a-image>
+```
+
 
 
 <h2> Useful A-frame tutorials and resources </h2>
