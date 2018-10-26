@@ -26,3 +26,8 @@ threetowers
 tron
 volcano
 yavapai
+
+<h2> Useful A-frame tutorials and resources </h2>
+<ul>
+<li> https://codeburst.io/a-frame-vr-pitfalls-tips-and-tricks-4829aa3cbc22
+</ul>
