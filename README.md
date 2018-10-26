@@ -48,8 +48,10 @@ The package contains many other options. In Notepad or similar replace the word 
 <a-box position="-1 0.5 -3" rotation="0 45 0" color="#FFFFFF"></a-box>
 ```
 
+2. Now we have a box which we can position and rotate in 3 dimensions: left to right, up and down and further/nearer in the scene.
 
 <h2> Useful A-frame tutorials and resources </h2>
 <ul>
-<li> https://codeburst.io/a-frame-vr-pitfalls-tips-and-tricks-4829aa3cbc22
+<li> Some stuff to watch out for - https://codeburst.io/a-frame-vr-pitfalls-tips-and-tricks-4829aa3cbc22
+<li> Fun tutorial on A-frame physics - https://hacks.mozilla.org/2017/05/having-fun-with-physics-and-a-frame/
 </ul>
