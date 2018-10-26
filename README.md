@@ -43,6 +43,10 @@ The package contains many other options. In Notepad or similar replace the word 
 
 <h3> Adding objects </h3>
 
+1. Below the empty assets tags, add a line of code:
+```
+<a-box position="-1 0.5 -3" rotation="0 45 0" color="#FFFFFF"></a-box>
+```
 
 
 <h2> Useful A-frame tutorials and resources </h2>
