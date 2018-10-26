@@ -7,7 +7,9 @@
 2. Download vr-test2.htm and open it in your browser. This is a little sunnier. Instead of using images we are now using an <a href="https://github.com/feiss/aframe-environment-component">extra piece of Javascript</a> (written by <a href="https://github.com/feiss">Diego Goberna</a>) to provide a lot of environmental details quickly.
 
 3. Look at this code. You will see a line which reads:
+```
 <a-scene environment="preset: default">
+```
 
 The package contains many other options. Replace default with one of:
 
@@ -24,15 +26,19 @@ The package contains many other options. Replace default with one of:
   <td> goaland </td>
   <td> goldmine </td>
   </tr>
+<tr>
+  <td> japan </td>
+  <td> osiris </td>
+  <td> poison </td>
+  <td> starry </td>
+  </tr>
+<tr>
+  <td> threetowers </td>
+  <td> tron </td>
+  <td> volcano </td>
+  <td> yavapai </td>
 </table>
-japan
-osiris
-poison
-starry
-threetowers
-tron
-volcano
-yavapai
+
 
 <h2> Useful A-frame tutorials and resources </h2>
 <ul>
