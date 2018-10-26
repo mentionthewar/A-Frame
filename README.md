@@ -48,7 +48,12 @@ The package contains many other options. In Notepad or similar replace the word 
 <a-box position="-1 0.5 -3" rotation="0 45 0" color="#FFFFFF"></a-box>
 ```
 
-2. Now we have a box which we can position and rotate in 3 dimensions. The three values of the position attribute control left to right, up and down and further/nearer in the scene respectively. (i.e. if we want objects on the ground, the middle number should be 0)
+2. Now we have a box which we can position and rotate in 3 dimensions. The three values of the position attribute control left to right, up and down and further/nearer in the scene respectively. (i.e. if we want objects on the ground, the middle number should be 0). Move things around a bit and when you're ready add other objects, e.g.:
+```
+<a-cylinder position="1 0 -3" radius="0.75" height="6" color="#FFC65D"></a-cylinder>
+```
+The basic shapes are listed <a href="https://aframe.io/docs/0.8.0/introduction/html-and-primitives.html">on this page</a>.
+
 
 <h2> Useful A-frame tutorials and resources </h2>
 <ul>
