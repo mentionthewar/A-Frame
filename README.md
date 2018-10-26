@@ -73,11 +73,13 @@ The basic shapes are listed <a href="https://aframe.io/docs/0.8.0/introduction/h
 ```
 <h3> Calling other assets </h3>
 1. Running on a local machine this makes A-Frame rather grumpy. But we can slap a mural on our building. Into the assets section, we can add an image from Wikimedia Commons:
+
 ```
 <a-assets>
 <img id="dali" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Street_Art_%284240649293%29.jpg">
 </a-assets>
 ```
+
 2. We then call this asset with our boxes and other objects:
 ```
 <a-image position="-5 0.5 -5.8" rotation="0 0 0" src="#dali" height="5" width="6"></a-image>
