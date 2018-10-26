@@ -39,9 +39,11 @@ The package contains many other options. In Notepad or similar replace the word 
   <td> yavapai </td>
 </table>
 
-Save vr-test2.htm and refresh (F5) the page in the browser.
+4. Save vr-test2.htm and refresh (F5) the page in the browser. Maybe try a few of these until you find one you like.
 
-4. Maybe try a few of these until you find one you like.
+<h3> Adding objects </h3>
+
+
 
 <h2> Useful A-frame tutorials and resources </h2>
 <ul>
